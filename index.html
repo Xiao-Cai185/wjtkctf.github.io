@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head><meta charset="utf-8">
+	<title>《破译AI迷局》知识答题竞赛</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./index_files/fonts.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+	<link href="./index_files/css2" rel="stylesheet">
+	<link rel="stylesheet" href="./index_files/main.min.css">
+	<link rel="stylesheet" href="./index_files/core.min.css">
+	</script>
+	<style id="theme-color">
+:root {--theme-color: #000000;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+</style>
+
+<style type="text/css" abt="234"></style><script>//remove baidu search ad
+var _countAA = 0
+function doBBBd(){}
+doBBBd()
+document.addEventListener('keyup', function(){_countAA-=10;doBBBd()}, false)
+document.addEventListener('click', function(){_countAA-=10;doBBBd()}, false)
+
+</script></head>
+<body>
+	<div class="scanline"></div>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+		<a href="http://2024.tkctf.top" class="navbar-brand" id="ctfLink">
+			<img class="img-responsive ctf_logo" src="./index_files/TKCTF.png" height="25" alt="TKCTF 2024">
+		</a>
+		<script>
+			const ctfLink = document.getElementById("ctfLink");
+			ctfLink.addEventListener("click", function (event) {
+				event.preventDefault();
+				const userConfirmed = confirm("请连接校园网后访问");
+				if (userConfirmed) {
+					window.location.href = ctfLink.href;
+				}
+			});
+		</script>
+		
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars" aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="base-navbars">
+            <ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="http://2024.tkctf.top/users" onclick="showAlert(event)">用户</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://2024.tkctf.top/teams" onclick="showAlert(event)">团队</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://2024.tkctf.top/scoreboard" onclick="showAlert(event)">计分板</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://2024.tkctf.top/challenges" onclick="showAlert(event)">挑战</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bgm" onclick="play()">BGM</a>
+				</li>
+			</ul>
+			<script>
+				function play() {
+				  // Get the audio element
+				  var audio = document.getElementById('bgmAudio');
+			  
+				  // Check if the audio element exists
+				  if (audio) {
+					// Determine the current playback state
+					if (audio.paused) {
+					  // Play the audio if it's paused
+					  audio.play();
+					} else {
+					  // Pause the audio if it's playing
+					  audio.pause();
+					}
+				  } else {
+					// Create the audio element if it doesn't exist
+					var audioElement = document.createElement('audio');
+					audioElement.id = 'bgmAudio';
+					audioElement.src = './index_files/bgm.mp3';
+			  
+					// Add the audio element to the document
+					document.body.appendChild(audioElement);
+			  
+					// Play the audio after it's added to the document
+					audioElement.play();
+				  }
+				}
+			  </script>	
+			  <script>
+				function showAlert(event) {
+						event.preventDefault();
+						if (confirm("请连接校园网后访问")) {
+								window.location.href = event.target.href;
+						}
+				}
+				</script>
+            <hr class="d-sm-flex d-md-flex d-lg-none">
+        </div>
+    </div>
+</nav>
+
+	<main role="main">
+		
+	<div class="container">
+	<script type='text/javascript' src='https://kaoshi.wjx.top/handler/jqemed.ashx?activity=OxewWbf&width=760&source=iframe&height=680'></script>
+	<script>
+			setTimeout(function() {
+		document.querySelector('.nav-link[href="#bgm"]').click();
+		}, 5000);
+	</script>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container text-center">
+			<a href="https://qr.tkctf.top" class="text-secondary">
+				<small class="text-muted">Powered by TKCTF</small>
+			</a>
+		</div>
+	</footer>
+
+	<script defer="" src="./index_files/vendor.bundle.min.js"></script>
+	<script defer="" src="./index_files/core.min.js"></script>
+	<script defer="" src="./index_files/helpers.min.js"></script>
+	<script defer="" src="./index_files/main.min.js"></script>
+</body>
+</html>
